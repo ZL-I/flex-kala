@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    height: 350px;
+    max-width: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    justify-items: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+}
+
+img {
+    border-radius: 10px;
+    height: 190px;
+    width: 190px;
+}
+
+@media (min-width: 60cm) {
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
